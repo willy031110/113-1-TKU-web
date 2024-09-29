@@ -4,71 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styleDemo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- 網站標題 -->
     <title>WILLY的自我介紹</title>
 </head>
 
 <body>
+    <div id="app">
+        <div id="container">
+            <div id="user">
 
-    <h1>
-        姓名:潘劭威
-    </h1>
+                <div id="avatar">
+                    <img src="./1727373563896.jpg" alt="大頭貼">
+                </div>
 
-    <p>
-        淡江大學資訊管理系大三C班
-    </p>
+                <div id="userInfo">
+                    <div id="nameAndTitle">
+                        <p class="title">
+                            潘劭威 Willy
+                        </p>
+                        <p>
+                            淡江大學資管系
+                        </p>
+                    </div>
+                    <div id="aboutUser">
+                        <p> Willy 是一位學生，目前就讀新北市淡水區，
+                            淡江大學學校財團法人淡江大學。
+                        </p>
+                        <p> 目前主修資訊管理系，對程式設計和數據分析特別感興趣，也積極參加相關的課外活動。
+                        </p>
+                        <p>我希望畢業後能夠進入科技公司從事城市開發相關的工作，並持續學習新技術以提高自己的專業能力。
+                        </p>
+                    </div>
+                </div>
 
-    <a href="https://www.instagram.com/tku_im/">
-        資管系系學會ig
-    </a>
+            </div>
+            <div id="edu">
+                <p class="title">
+                    學歷
+                </p>
+                <p>
+                    新北市立海山高級中學畢業、淡江大學三年級
+                </p>
 
-    <span>
-        TKUIM
-    </span>
+            </div>
+            <div id="about">
+                <div id="contact">
+                    <p class="title">
+                        聯絡方式
+                    </p>
+                    <div id="contactInfo">
+                        <div id="locate">
+                            <p class="title">定位 <i class="bi bi-geo-alt"></i></p>
+                            <p>
+                                潘劭威 Willy
+                            </p>
+                            <p>
+                                管管系 Tamkang University
+                            </p>
+                        </div>
+                        <div id="email">
+                            <p class="title">Email <i class="bi bi-envelope"></i></p>
+                            <p>
+                                E-mail: 411630063@o365.tku.edu.tw
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="experiences">
 
-    <a href="https://www.facebook.com/tkuimsos/?locale=zh_TW">
-        FB
-    </a>
-    <p>我的夢想車</p>
-    <p>
-        <img src="https://autos.yahoo.com.tw/p/r/w880/bike-trim/February2024/c92cb535f5726fff4428839a47d8f7fa.jpeg" alt="夢想車">
-    </p>
-    
-    <h2>興趣</h2>
-    <ul>
-        <li>騎摩托車</li>
-        <li>打遊戲</li>
-        <li>打桌球</li>
-        <li>睡覺</li>
-    </ul>
-    <h2>喜歡的食物</h2>
-    <ol>
-        <li>義大利麵</li>
-        <li>拉麵</li>
-        <li>燉飯</li>
-        <li>丼飯</li>
-    </ol>
+                    <p class="title">
+                        經歷
+                    </p>
+                    <div class="experience">
+                        <p class="title">
+                            大學
+                        </p>
+                        新北市淡水區淡江大學三年級
+                    </div>
 
-    <form action="/submit" method="post">
-        <label for="name">姓名:</label>
-        <input type="text" id="name" name="name">
-        <label for="name">學號:</label>
-        <input type="text" id="number" name="number">
-        <input type="submit" value="提交">
-    </form>
+                    <div class="experience">
+                        <p class="title">
+                            高中
+                        </p>
+                        新北市立海山高級中學
+                    </div>
 
-    <table>
-        <tr>
-            <th>名稱</th>
-            <th>年齡</th>
-        </tr>
-        <tr>
-            <td>潘劭威</td>
-            <td>20</td>
-        </tr>
-    </table>
-    <strong>帥只是一個字</strong>
-    <em>卻跟了我一輩子</em>
+                    <div class="experience">
+                        <p class="title">
+                            國中
+                        </p>
+                        新北市樹林區育林國民中學
+                    </div>
+
+                    <div class="experience">
+                        <p class="title">
+                            國小
+                        </p>
+                        新北市樹林區育林國民小學
+                    </div>
+
+                </div>
+                <div id="experiences">
+                    <p class="title">
+                        我的愛車 GSX-R150
+                    </p>
+                    <div id="avatar">
+                        <img src="./IMG20240706061406.jpg" alt="150R">
+                    </div>
+
+                </div>
+                <div id="experiences">
+                    <p class="title">
+                        MMBCU
+                    </p>
+                    <div id="avatar">
+                        <img src="./IMG20230829090726.jpg" alt="MMBCU">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
